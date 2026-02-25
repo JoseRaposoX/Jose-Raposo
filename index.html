@@ -1,50 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jose Raposo | Consultoria & Curadoria Digital</title>
+    <title>Jose Raposo | Digital Strategy & Content Curation</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root { --accent: #669e12; --bg: #f5f7f2; --text: #1a1a1a; }
         body { background-color: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; }
         header { padding: 80px 20px; text-align: center; background: #fff; border-bottom: 1px solid #eee; }
         .container { max-width: 900px; margin: auto; padding: 40px 20px; }
-        .service-card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 20px; }
+        .service-card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 20px; text-align: center; }
         h1 { font-size: 2.5rem; margin: 0; }
-        .price { font-weight: bold; color: var(--accent); font-size: 1.2rem; }
+        .price { font-weight: bold; color: var(--accent); font-size: 1.5rem; margin: 10px 0; display: block; }
+        
+        /* Botões da Fachada */
+        .btn-consulting {
+            display: inline-block;
+            background-color: #1a1a1a;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+        .btn-consulting:hover { background-color: var(--accent); }
+
         footer { padding: 40px; text-align: center; font-size: 0.8rem; color: #888; border-top: 1px solid #eee; background: #fff; }
     </style>
 </head>
 <body>
     <header>
         <h1>Jose Laurindo Rosa Raposo</h1>
-        <p>Estrategista Visual e Consultor de Mídia Digital</p>
+        <p>Digital Strategist & Visual Content Consultant</p>
     </header>
 
     <div class="container">
         <div class="service-card">
-            <h3>Consultoria Discovery</h3>
-            <p>Análise de posicionamento digital e curadoria de estética para novos criadores.</p>
-            <p class="price">R$ 49,90</p>
+            <h3>Discovery Consulting</h3>
+            <p>Analysis of digital positioning and aesthetic curation for new content creators.</p>
+            <span class="price">$19.99</span>
+            <a href="https://www.ggcheckout.com/checkout/v2/IU7CWJa9Yy0kJIgo8eYC" class="btn-consulting">Get Started</a>
         </div>
+
         <div class="service-card">
-            <h3>Mentoria Eternal Vault</h3>
-            <p>Programa completo de gestão de acervo digital e proteção de propriedade intelectual.</p>
-            <p class="price">R$ 97,90</p>
+            <h3>Eternal Vault Mentorship</h3>
+            <p>Complete program for digital asset management and intellectual property protection.</p>
+            <span class="price">$49.99</span>
+            <a href="https://www.ggcheckout.com/checkout/v2/C3eBzaJ0uc7Ke7GVk8Kl" class="btn-consulting">Book Mentorship</a>
         </div>
+
         <div class="service-card">
             <h3>VIP Digital Experience</h3>
-            <p>Acompanhamento personalizado para alta performance em plataformas de conteúdo.</p>
-            <p class="price">R$ 197,90</p>
+            <p>Personalized coaching for high-performance management on digital platforms.</p>
+            <span class="price">$99.99</span>
+            <a href="https://www.ggcheckout.com/checkout/v2/nGrB1hNRqzobPJx1nMuq" class="btn-consulting">Apply for VIP</a>
         </div>
     </div>
 
     <footer>
-        <p><strong>Jose Laurindo Rosa Raposo</strong> | CNPJ: [OPCIONAL]</p>
-        <p><strong>Termos de Uso:</strong> Este site oferece serviços de consultoria digital. O acesso é imediato após a confirmação do pagamento.</p>
-        <p><strong>Política de Reembolso:</strong> Por se tratar de serviços digitais, o reembolso pode ser solicitado em até 7 dias, desde que o serviço não tenha sido integralmente prestado.</p>
-        <p>Contato: contato@teudominio.com</p>
+        <p><strong>Jose Laurindo Rosa Raposo</strong></p>
+        <p><strong>Terms of Service:</strong> Professional consulting services. Digital delivery upon verification.</p>
+        <p><strong>Refund Policy:</strong> 7-day satisfaction guarantee for consulting services.</p>
+        <p>Contact: contato@seudominio.com</p>
     </footer>
 </body>
 </html>
